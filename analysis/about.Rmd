@@ -7,4 +7,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+This project aims on investigating patterns of plant and frugivore (birds and mammals that eat fruits) biodiversity in the Tropical Andes at various spatial scales using open, large databases.
+
+To learn more about me and my research visit [my website](www.hazeljanderson.com).

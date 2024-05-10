@@ -8,4 +8,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+This project follows the [Environmental Data Initative (EDI) workflow](https://environmentaldatainitiative.org/dataset-design/).

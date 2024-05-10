@@ -9,6 +9,12 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  - text: Analysis
+    icon: fa-gear
+    menu:
+      - text: L0
+      - text: L1
+      - text: L2
   right:
   - icon: fab fa-github
     text: Source code
