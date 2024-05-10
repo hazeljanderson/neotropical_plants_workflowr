@@ -24,6 +24,8 @@ library(sf)
 library(rnaturalearth)
 library(dplyr)
 library(terra)
+library(ggplot2)
+library(ggspatial)
 ```
 
 # Load in Ecosystem Functional Groups
