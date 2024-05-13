@@ -5,14 +5,29 @@ navbar:
   left:
   - text: Home
     href: index.html
-  - text: About
-    href: about.html
-  - text: License
-    href: license.html
+  - text: Workflow
+    href: workflow.html
   - text: Analysis
     icon: fa-gear
     menu:
       - text: L0
+        menu:
+          - text: L0_TropicalAndes_IUCNhabitatClassification
+            href: L0_TropicalAndes_IUCNhabitatClassification.html
+          - text: L0_TropicalAndes_frugivores_GBIF
+            href: L0_TropicalAndes_frugivores_GBIF.html
+          - text: L0_TropicalAndes_frugivores_frugivoria_traits
+            href: L0_TropicalAndes_frugivores_frugivoria_traits.html
+          - text: L0_TropicalAndes_plants_BIEN_traits
+            href: L0_TropicalAndes_plants_BIEN_traits.html
+          - text: L0_TropicalAndes_plants_GBIF
+            href: L0_TropicalAndes_plants_GBIF.html
+          - text: L0_TropicalAndes_plants_GIFT
+            href: L0_TropicalAndes_plants_GIFT.html
+          - text: L0_TropicalAndes_plants_TRY
+            href: L0_TropicalAndes_plants_TRY.html
+          - text: L0_TropicalAndes_plants_checklist
+            href: L0_TropicalAndes_plants_checklist.html
       - text: L1
       - text: L2
   right:
