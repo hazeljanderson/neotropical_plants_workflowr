@@ -1,5 +1,6 @@
 ---
 title: "Home"
+author: "Hazel J. Anderson"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -8,4 +9,30 @@ editor_options:
   chunk_output_type: console
 ---
 
-This project follows the [Environmental Data Initative (EDI) workflow](https://environmentaldatainitiative.org/dataset-design/).
+## Project Summary
+Coming soon
+
+## What's included in this site
+This site showcases the [Neotropical Plants](https://github.com/bioXgeo/neotropical_plants/tree/master) repository. The repository used to build this site sources code from that repository to generate the corresponding html files.
+- analysis: sources the R Markdown files for the workflowr website
+- docs: contains the webpages generated from the R Markdown files from the analysis directory
+
+This project follows the [Environmental Data Initative (EDI) workflow](https://environmentaldatainitiative.org/dataset-design/). As such, the L0 code retrieves the raw data, the L1 code modifies and cleans the data, and the L2 code runs analyses with the data.
+
+## Collaborators
+- [Hazel J. Anderson][hazel]: M.S. Student, Michigan State University (MSU), [MSU Spatial & Community Ecology Lab (SpaCE Lab)](http://www.communityecologylab.com)
+- [Beth E. Gerstner][beth]: Ph.D. Candidate, Michigan State University (MSU), [MSU Spatial & Community Ecology Lab (SpaCE Lab)](http://www.communityecologylab.com)
+- [Pat Bills][pat]: Data Scientist & Data Engineer, Michigan State University (MSU), [MSU Spatial & Community Ecology Lab (SpaCE Lab)](http://www.communityecologylab.com)
+- [Phoebe L. Zarnetske][plz]: PI, Michigan State University (MSU), [MSU Spatial & Community Ecology Lab (SpaCE Lab)](http://www.communityecologylab.com)
+
+## Citing this work
+Coming soon
+
+## License
+Copyright (c) 2024 Hazel J. Anderson
+All source code and software in this repository are made available under the terms of the [MIT license](https://opensource.org/licenses/mit-license.html).
+
+[hazel]:https://github.com/hazeljanderson
+[beth]: https://github.com/bgerstner90
+[pat]: https://github.com/billspat
+[plz]: https://github.com/plzmsu
