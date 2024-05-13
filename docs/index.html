@@ -9,6 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Hazel J. Anderson" />
 
 
 <title>Home</title>
@@ -263,6 +264,20 @@ $(document).ready(function () {
 <li>
   <a href="license.html">License</a>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    Analysis
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">L0</li>
+    <li class="dropdown-header">L1</li>
+    <li class="dropdown-header">L2</li>
+  </ul>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -282,6 +297,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Home</h1>
+<h4 class="author">Hazel J. Anderson</h4>
 
 </div>
 
@@ -289,7 +305,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
+workflowr <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -300,8 +316,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> </a>
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+</a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -310,13 +326,13 @@ aria-hidden="true"></span> </a>
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2024-05-10
+<strong>Last updated:</strong> 2024-05-13
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 1
+aria-hidden="true"></span> 0
 </p>
 <p>
 <strong>Knit directory:</strong>
@@ -340,36 +356,33 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
-<span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
-changes </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
+<span class="glyphicon glyphicon-ok text-success"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
+</a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguncommittedchanges"
+<div id="strongRMarkdownfilestronguptodate"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown file has unstaged changes. To know which version of
-the R Markdown file created these results, you’ll want to first commit
-it to the Git repo. If you’re still working on the analysis, you can
-ignore this warning. When you’re finished, you can run
-<code>wflow_publish</code> to commit the R Markdown file and build the
-HTML.</p>
+<p>Great! Since the R Markdown file has been committed to the Git
+repository, you know the exact version of the code that produced these
+results.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomhazeljandersonneotropicalplantsworkflowrtreed0dc5b87866baa97850deff8e6a39576e0267283targetblankd0dc5b8a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomhazeljandersonneotropicalplantsworkflowrtreed9230ec4878861c2aabb0c3ebf0fb26b50eeba08targetblankd9230eca">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/tree/d0dc5b87866baa97850deff8e6a39576e0267283" target="_blank">d0dc5b8</a>
+<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/tree/d9230ec4878861c2aabb0c3ebf0fb26b50eeba08" target="_blank">d9230ec</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomhazeljandersonneotropicalplantsworkflowrtreed0dc5b87866baa97850deff8e6a39576e0267283targetblankd0dc5b8a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomhazeljandersonneotropicalplantsworkflowrtreed9230ec4878861c2aabb0c3ebf0fb26b50eeba08targetblankd9230eca"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -379,7 +392,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/tree/d0dc5b87866baa97850deff8e6a39576e0267283" target="_blank">d0dc5b8</a>.
+<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/tree/d9230ec4878861c2aabb0c3ebf0fb26b50eeba08" target="_blank">d9230ec</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -394,11 +407,8 @@ were generated:
 </p>
 <pre><code>
 Ignored files:
+    Ignored:    .Rhistory
     Ignored:    .Rproj.user/
-
-Unstaged changes:
-    Modified:   analysis/about.Rmd
-    Modified:   analysis/index.Rmd
 
 </code></pre>
 <p>
@@ -445,6 +455,57 @@ Message
 <tbody>
 <tr>
 <td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/blob/d9230ec4878861c2aabb0c3ebf0fb26b50eeba08/analysis/index.Rmd" target="_blank">d9230ec</a>
+</td>
+<td>
+Hazel J. Anderson
+</td>
+<td>
+2024-05-13
+</td>
+<td>
+wflow_publish("analysis/index.Rmd")
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/hazeljanderson/neotropical_plants_workflowr/blob/8205b80b7984869a0b223c5bbd78f77325dbe31d/analysis/index.Rmd" target="_blank">8205b80</a>
+</td>
+<td>
+Hazel J. Anderson
+</td>
+<td>
+2024-05-10
+</td>
+<td>
+update website
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/hazeljanderson/neotropical_plants_workflowr/8205b80b7984869a0b223c5bbd78f77325dbe31d/docs/index.html" target="_blank">8205b80</a>
+</td>
+<td>
+Hazel J. Anderson
+</td>
+<td>
+2024-05-10
+</td>
+<td>
+update website
+</td>
+</tr>
+<tr>
+<td>
 html
 </td>
 <td>
@@ -484,9 +545,57 @@ Start workflowr project.
 </div>
 </div>
 </div>
+<div id="project-summary" class="section level2">
+<h2>Project Summary</h2>
+<p>Coming soon</p>
+</div>
+<div id="whats-included-in-this-site" class="section level2">
+<h2>What’s included in this site</h2>
+<p>This site showcases the <a
+href="https://github.com/bioXgeo/neotropical_plants/tree/master">Neotropical
+Plants</a> repository. The repository used to build this site sources
+code from that repository to generate the corresponding html files. -
+analysis: sources the R Markdown files for the workflowr website - docs:
+contains the webpages generated from the R Markdown files from the
+analysis directory</p>
 <p>This project follows the <a
 href="https://environmentaldatainitiative.org/dataset-design/">Environmental
-Data Initative (EDI) workflow</a>.</p>
+Data Initative (EDI) workflow</a>. As such, the L0 code retrieves the
+raw data, the L1 code modifies and cleans the data, and the L2 code runs
+analyses with the data.</p>
+</div>
+<div id="collaborators" class="section level2">
+<h2>Collaborators</h2>
+<ul>
+<li><a href="https://github.com/hazeljanderson">Hazel J. Anderson</a>:
+M.S. Student, Michigan State University (MSU), <a
+href="http://www.communityecologylab.com">MSU Spatial &amp; Community
+Ecology Lab (SpaCE Lab)</a></li>
+<li><a href="https://github.com/bgerstner90">Beth E. Gerstner</a>:
+Ph.D. Candidate, Michigan State University (MSU), <a
+href="http://www.communityecologylab.com">MSU Spatial &amp; Community
+Ecology Lab (SpaCE Lab)</a></li>
+<li><a href="https://github.com/billspat">Pat Bills</a>: Data Scientist
+&amp; Data Engineer, Michigan State University (MSU), <a
+href="http://www.communityecologylab.com">MSU Spatial &amp; Community
+Ecology Lab (SpaCE Lab)</a></li>
+<li><a href="https://github.com/plzmsu">Phoebe L. Zarnetske</a>: PI,
+Michigan State University (MSU), <a
+href="http://www.communityecologylab.com">MSU Spatial &amp; Community
+Ecology Lab (SpaCE Lab)</a></li>
+</ul>
+</div>
+<div id="citing-this-work" class="section level2">
+<h2>Citing this work</h2>
+<p>Coming soon</p>
+</div>
+<div id="license" class="section level2">
+<h2>License</h2>
+<p>Copyright (c) 2024 Hazel J. Anderson All source code and software in
+this repository are made available under the terms of the <a
+href="https://opensource.org/licenses/mit-license.html">MIT
+license</a>.</p>
+</div>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
